@@ -30,3 +30,144 @@ modules by path ./.ve/ 15.1 KiB
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 1610 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.fe4c9aad82badf3669fd.hot-update.js 4.68 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.fe4c9aad82badf3669fd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.fe4c9aad82badf3669fd.hot-update.js 4.68 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.21 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 106 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.45 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.a5290c0e5c333c868d92.hot-update.js 32.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.a5290c0e5c333c868d92.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.45 MiB = bundle.js 1.42 MiB main.a5290c0e5c333c868d92.hot-update.js 32.4 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 28.5 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 98 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.3fa2a76729e8015dd282.hot-update.js 3.41 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.3fa2a76729e8015dd282.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.42 MiB main.3fa2a76729e8015dd282.hot-update.js 3.41 KiB
+cached modules 1.29 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 679 bytes [built] [code generated]
+
+ERROR in ./src/App.js 3:0-41
+Module not found: Error: Can't resolve './components/Header' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 4:0-43
+Module not found: Error: Can't resolve './components/Sidebar' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 52 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.135c0e4c5499de6c33d2.hot-update.js 6.32 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.135c0e4c5499de6c33d2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.42 MiB main.135c0e4c5499de6c33d2.hot-update.js 6.32 KiB
+cached modules 1.29 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.24 KiB
+  ./src/App.js 679 bytes [code generated]
+  ./src/components/Header.js 1.58 KiB [built] [code generated]
+
+ERROR in ./src/App.js 4:0-43
+Module not found: Error: Can't resolve './components/Sidebar' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+resolve './components/Sidebar' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src/components/Sidebar)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/Sidebar doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/Sidebar.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/Sidebar.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/Sidebar doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src/components/MainContent)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 56 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.84fc81ffd61684155a17.hot-update.js 5.53 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.84fc81ffd61684155a17.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.42 MiB main.84fc81ffd61684155a17.hot-update.js 5.53 KiB
+cached modules 1.29 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 1.67 KiB
+  ./src/App.js 679 bytes [code generated]
+  ./src/components/Sidebar.js 1 KiB [built] [code generated]
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src/components/MainContent)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/recipeshare-hub-156-3437ce98/recipe_frontend_workspace/recipe_frontend/src/components/MainContent doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 56 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.f38ec49da7cc4fd143fe.hot-update.js 5.06 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.f38ec49da7cc4fd143fe.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.42 MiB main.f38ec49da7cc4fd143fe.hot-update.js 5.06 KiB
+cached modules 1.29 MiB [cached] 43 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 1.43 KiB
+  ./src/App.js 679 bytes [code generated]
+  ./src/components/MainContent.js 783 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 37 ms
